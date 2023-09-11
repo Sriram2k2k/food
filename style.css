@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+} 
+.group1{
+position: relative; 
+}
+.title{
+    position: absolute;
+    color: white;   
+    font-size: 50px;
+    left: 47%;
+    font-family: 'Ubuntu', sans-serif;
+    top: 35px;
+}
+#i{
+    animation-duration: 10s;
+    animation-name: i;
+}
+@keyframes i{
+    0%{
+        color: aqua;
+    }
+    25%{
+        color: blue;
+    }
+    50%{
+        color: red;
+    }
+    75%{
+        color: blueviolet;
+    }
+    100%{
+        color: aqua;
+    }
+}
+.bg{
+    width: 100%;
+    height: 790px;
+}
+.logo{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 43.5%;
+    top: 48px;
+    
+}
+.para{
+    position: absolute;
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    left: 30%;
+    top: 480px;
+}
+.head{  
+    position: absolute;
+    font-family: 'Lobster', cursive;
+    color: white;
+    letter-spacing: 3px;
+    font-size: 180px;
+    top: 250px;
+    left: 28%;
+}
+nav{
+    position: absolute;
+    font-size: 35px;
+    position: absolute;
+    display: inline;
+    text-decoration: none;
+    top: 130px;
+    left: 430px; 
+}
+nav a{
+    color: white;
+    padding: 20px;
+    justify-content: space-around;
+}
+nav a:hover{
+    color: rgb(255, 77, 0);
+    text-shadow:  0px 0px 5px rgb(12, 12, 11), 0px 0px 5px rgb(6, 6, 1);
+}
+a:link{
+    text-decoration: none;
+}
+.button{
+    position: absolute;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 30px;
+    font-size: 35px;
+    padding: 5px 50px ;
+    color: rgba(231, 86, 93, 57);
+    top: 600px;
+    left: 42%;
+}
+.button:hover{
+    box-shadow: inset 0px 0px 5px red,0px 0px 25px yellowgreen;
+}
+.group2{
+    position: relative;
+}
+.bg2{
+    width:100% ;
+    height: 900px;
+}
+.head2{
+    position: absolute;
+    font-size: 100px;
+    color: rgba(231, 86, 93, 57);
+    font-family: 'Kaushan Script', cursive;
+    top: 60px; 
+    left: 40%;
+}
+.para12{
+    position: absolute;
+    font-size: 32px;
+    left: 29%;
+    top: 210px;
+}
+.para22{
+    position: absolute;
+    font-size: 32px;
+    left: 34%;
+    top: 240px;
+}
+.img2{
+    position:absolute;
+    display: flex;
+    justify-content: space-between;
+    top: 350px;
+    left:50px;
+    right: 50px;
+}
+.cont2{
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    left: 150px;
+    right: 50px;
+    top: 700px;
+}
+ .cont2 h2{
+    color: rgba(231, 86, 93, 57);
+    font-family: 'Kaushan Script', cursive;
+}
+.cont2 p{
+    font-weight: bold;
+}
+.group3{
+    position: relative;
+}
+.img3{
+    width: 100%;
+    height: 800px;
+}
+.head3{
+    position: absolute;
+    font-size: 80px;
+    color: white;
+    left: 43%;
+    top: 100Px; 
+}
+.para31{
+    position: absolute;
+    font-size: 32px;
+    font-weight: 100;
+    color: white;
+    top: 200px;
+    left: 30%;
+}
+.para32{
+    position: absolute;
+    font-size: 30px;
+    font-weight: 100;
+    color: white;
+    left: 33%;
+    top: 250Px; 
+}
+.round{
+    display: flex;
+   position: absolute;
+   justify-content: space-around;
+   color: white;
+   right: 50px;
+   left: 50px;
+   top: 500px;
+
+}
+.round h2{
+    font-size: 40px;
+    word-spacing: 15cap;
+}
+.round p{
+    text-align: center;
+    font-size: 19px;
+}
+.round1{
+    background-color: 20px solid white;
+    border-style: dashed ;
+    padding: 50px;
+    border-radius: 100%;
+}
+.round2{
+    background-color: 20px solid white;
+    border-style: dashed ;
+    padding: 50px;
+    border-radius: 100%; 
+}
+.round3{
+    background-color: 30px solid white;
+    border-style: dashed ;
+    padding: 50px;
+    border-radius: 100%;
+}
+.round3 h2{
+    text-align: center;
+}
